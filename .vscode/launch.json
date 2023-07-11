@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "PyCraft",
+            "type": "python",
+            "request": "launch",
+            "program": "src/PyCraft/main.py",
+            "console": "internalConsole",
+            "internalConsoleOptions": "neverOpen",
+            "justMyCode": true
+        }
+    ]
+}

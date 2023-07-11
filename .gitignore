@@ -1,0 +1,7 @@
+# Python files
+env
+__pycache__
+*.egg-info
+
+# Let dictionary be user specific
+.vscode/cSpell/default_dict.txt

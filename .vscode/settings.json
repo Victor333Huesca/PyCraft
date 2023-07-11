@@ -1,0 +1,9 @@
+{
+    "explorer.autoRevealExclude": {
+        "**/env": true
+    },
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.egg-info": true
+    }
+}

@@ -1,0 +1,21 @@
+[project]
+name = "PyCraft"
+authors = [{name = "Victor Huesca"}]
+version = "0.0.1"
+requires-python = ">=3.11"
+dependencies = [
+    "typing-extensions",
+    "pyqt6",
+    "pyopengl",
+    "numpy",
+    "PyGLM",
+    "colorama"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest"
+]
+
+[project.scripts]
+pycraft = 'PyCraft.main:main'
